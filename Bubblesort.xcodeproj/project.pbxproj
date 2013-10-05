@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F664EDD117FDF34C0095C257 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F664EDD017FDF34C0095C257 /* main.cpp */; };
-		F664EDD317FDF34C0095C257 /* Bubblesort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F664EDD217FDF34C0095C257 /* Bubblesort.1 */; };
+		F664EDDA17FE04660095C257 /* Bubblesort 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F664EDD917FE04660095C257 /* Bubblesort 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				F664EDD317FDF34C0095C257 /* Bubblesort.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +24,7 @@
 
 /* Begin PBXFileReference section */
 		F664EDCC17FDF34C0095C257 /* Bubblesort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bubblesort; sourceTree = BUILT_PRODUCTS_DIR; };
-		F664EDD017FDF34C0095C257 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F664EDD217FDF34C0095C257 /* Bubblesort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bubblesort.1; sourceTree = "<group>"; };
+		F664EDD917FE04660095C257 /* Bubblesort 2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Bubblesort 2.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +41,7 @@
 		F664EDC117FDF34C0095C257 = {
 			isa = PBXGroup;
 			children = (
-				F664EDCF17FDF34C0095C257 /* Bubblesort */,
+				F664EDD917FE04660095C257 /* Bubblesort 2.cpp */,
 				F664EDCD17FDF34C0095C257 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +52,6 @@
 				F664EDCC17FDF34C0095C257 /* Bubblesort */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F664EDCF17FDF34C0095C257 /* Bubblesort */ = {
-			isa = PBXGroup;
-			children = (
-				F664EDD017FDF34C0095C257 /* main.cpp */,
-				F664EDD217FDF34C0095C257 /* Bubblesort.1 */,
-			);
-			path = Bubblesort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +105,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F664EDD117FDF34C0095C257 /* main.cpp in Sources */,
+				F664EDDA17FE04660095C257 /* Bubblesort 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +192,7 @@
 				F664EDD817FDF34C0095C257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
